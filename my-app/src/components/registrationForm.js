@@ -16,17 +16,20 @@ function RegistrationForm() {
                   <label className="form__label" for="email">Email </label>
                   <input  type="email" id="email" className="form__input" placeholder="Email"/>
               </div>
-              <div className="password">
-                  <label className="form__label" for="password">Password </label>
-                  <input className="form__input" type="password"  id="password" placeholder="Password"/>
+              <div className="phone">
+                  <label className="form__label" for="phone">Phone Number </label>
+                  <input className="form__input" type="text"  id="password" placeholder="Phone Number"/>
               </div>
-              <div className="confirm-password">
-                  <label className="form__label" for="confirmPassword">Confirm Password </label>
-                  <input className="form__input" type="password" id="confirmPassword" placeholder="Confirm Password"/>
+              <div className="address">
+                  <label className="form__label" for="address">Address </label>
+                  <input className="form__input" type="text" id="confirmPassword" placeholder="Address"/>
               </div>
           </div>
           <div class="footer">
-              <button type="submit" class="btn">Register</button>
+              <button type="submit" class="btn">ADD MEMBER</button>
+          </div>
+          <div class="view">
+            <button type="button" class="btn">VIEW MEMBERS</button>
           </div>
       </div>      
     )       

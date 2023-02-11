@@ -1,11 +1,12 @@
 body{
-    background: #bdc3c7;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: url("1.jpg");
+    background-size: cover;
+    /* background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+    /* background: linear-gradient(to right, #2c3e50, #bdc3c7); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
 }
 
 .form{
-    background-color: white;
+    background-color: rgb(68, 68, 68);
     border-radius: 5px;
     width: 550px;
     margin: 20px auto;
@@ -14,12 +15,14 @@ body{
 }
 
 .form-body{
+    color: aliceblue;
     text-align: left;
     padding: 20px 10px;
 }
 
 .form-body > *{
     padding: 5px;
+    
 }
 
 .form__label{
@@ -31,5 +34,14 @@ body{
 }
 
 .footer{
+    margin-top: 2%;
+    text-align: center;
+}
+.btn{
+
+    border:2px solid rgb(162, 255, 0);;
+}
+.view{
+    padding-top: 5%;
     text-align: center;
 }
